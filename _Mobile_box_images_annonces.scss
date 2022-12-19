@@ -1,0 +1,47 @@
+@media screen and (min-width:360px) and (max-width:1000px)
+{
+    .Box_images_annonces
+    {
+        gap: 10px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .Img_principale
+        {
+            width: 80%;
+            height: 400px;
+            background-image: url(Images/Image_Villa.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border-radius: 18px;
+        }
+        .Nav_pieces
+        {
+            
+            display: flex;
+            flex-flow: row;
+            justify-content: space-around;
+            width: 75%;
+            height: 150px;
+            .Img_villa1
+            {
+                background-image: url(Images/Pieces_Villa1.jpg) ;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 18px;
+                height: 100%;
+                width: 40%;
+            }
+            .Img_villa2
+            {
+                background-image: url(Images/Pieces_Villa1.jpg) ;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: 60%;
+                border-radius: 18px;
+                height: 100%;
+                width: 40%;
+            }
+        }
+    }
+}

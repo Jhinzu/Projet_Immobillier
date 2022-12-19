@@ -59,7 +59,8 @@
     position: absolute;
     background-image: url(Images/Image_Principale.jpg);
     background-repeat: no-repeat;
-    background-size: 120% 120%;
+    background-size: cover;
+    background-position-x: 75%;
     opacity: 65%;
     inset: 0;
     z-index: -1;
@@ -117,109 +118,161 @@ main .Ligne {
   background-color: #A54657;
 }
 
-.Container_annonce .Box_prix_titre {
-  margin-bottom: 10px;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  gap: 10px;
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .Box_prix_titre {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .Box_prix_titre strong {
+    text-align: center;
+    color: white;
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
+    font-size: 2em;
+  }
 }
-.Container_annonce .Box_prix_titre strong {
-  text-align: center;
-  color: white;
-  font-family: "Lobster", Arial, Helvetica, sans-serif;
-  font-size: 2em;
-}
-@media screen and (min-width: 576px) {
-  .Container_annonce .Box_prix_titre strong {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
+  .Box_prix_titre strong {
     font-size: 3em;
   }
 }
-@media screen and (min-width: 768px) {
-  .Container_annonce .Box_prix_titre strong {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_prix_titre strong {
     font-size: 4em;
   }
 }
-.Container_annonce .Box_prix_titre .Border_prix {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 60px;
-  border: 2px #044488 solid;
-  background-color: #044488;
-  border-radius: 15px;
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .Box_prix_titre .Border_prix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    border: 2px #044488 solid;
+    background-color: #044488;
+    border-radius: 15px;
+  }
 }
-@media screen and (min-width: 576px) {
-  .Container_annonce .Box_prix_titre .Border_prix {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
+  .Box_prix_titre .Border_prix {
     height: 100px;
   }
 }
-@media screen and (min-width: 768px) {
-  .Container_annonce .Box_prix_titre .Border_prix {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_prix_titre .Border_prix {
     height: 140px;
   }
 }
-.Container_annonce .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
-  color: #A54657;
-  margin-left: 2%;
-  font-size: 2em;
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
+    color: #A54657;
+    margin-left: 2%;
+    font-size: 2em;
+  }
 }
-@media screen and (min-width: 576px) {
-  .Container_annonce .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
+  .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
     font-size: 3em;
   }
 }
-@media screen and (min-width: 768px) {
-  .Container_annonce .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
     font-size: 4em;
   }
 }
-.Container_annonce .Box_prix_titre .Border_titre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: 50px;
-  border: 2px #044488 solid;
-  border-radius: 15px;
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .Box_prix_titre .Border_titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    border: 2px #044488 solid;
+    border-radius: 15px;
+  }
 }
-@media screen and (min-width: 576px) {
-  .Container_annonce .Box_prix_titre .Border_titre {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
+  .Box_prix_titre .Border_titre {
     height: 90px;
   }
 }
-@media screen and (min-width: 768px) {
-  .Container_annonce .Box_prix_titre .Border_titre {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_prix_titre .Border_titre {
     height: 130px;
   }
 }
-.Container_annonce .Box_prix_titre .Border_titre h3 {
-  color: #A54657;
-  font-family: "Lobster", Arial, Helvetica, sans-serif;
-  font-size: 1em;
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .Box_prix_titre .Border_titre h3 {
+    color: #A54657;
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+  }
 }
-@media screen and (min-width: 576px) {
-  .Container_annonce .Box_prix_titre .Border_titre h3 {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
+  .Box_prix_titre .Border_titre h3 {
     font-size: 2em;
   }
 }
-@media screen and (min-width: 768px) {
-  .Container_annonce .Box_prix_titre .Border_titre h3 {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_prix_titre .Border_titre h3 {
     font-size: 3em;
   }
 }
-.Container_annonce .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
-  margin-left: 2%;
-  color: #044488;
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
+    margin-left: 2%;
+    color: #044488;
+  }
 }
-@media screen and (min-width: 576px) {
-  .Container_annonce .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
+  .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
     font-size: 2em;
   }
 }
-@media screen and (min-width: 768px) {
-  .Container_annonce .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
     font-size: 3em;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .Box_images_annonces {
+    gap: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .Box_images_annonces .Img_principale {
+    width: 80%;
+    height: 400px;
+    background-image: url(Images/Image_Villa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 18px;
+  }
+  .Box_images_annonces .Nav_pieces {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 75%;
+    height: 150px;
+  }
+  .Box_images_annonces .Nav_pieces .Img_villa1 {
+    background-image: url(Images/Pieces_Villa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    height: 100%;
+    width: 40%;
+  }
+  .Box_images_annonces .Nav_pieces .Img_villa2 {
+    background-image: url(Images/Pieces_Villa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 60%;
+    border-radius: 18px;
+    height: 100%;
+    width: 40%;
   }
 }/*# sourceMappingURL=Imobillier.css.map */

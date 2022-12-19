@@ -15,7 +15,8 @@
                 position: absolute;
                 background-image: url(Images/Image_Principale.jpg);
                 background-repeat: no-repeat;
-                background-size: 120% 120%;
+                background-size: cover;
+                background-position-x: 75%;
                 opacity: 65%;
                 inset: 0;
                 z-index: -1;
@@ -63,7 +64,6 @@
                     font-size: 5em;
                 }
             }
-
         }
     }
 }
