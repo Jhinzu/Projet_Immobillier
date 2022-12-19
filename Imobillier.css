@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  .Img_villa3 {
+    display: none;
+  }
+}
 @media screen and (min-width: 360px) and (max-width: 1000px) {
   .Responsive_header {
     display: none;
@@ -88,11 +93,6 @@
     font-size: 3em;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Container_acceuille .Texte_acceuille h2 {
-    font-size: 4em;
-  }
-}
 @media screen and (min-width: 360px) and (max-width: 1000px) {
   .Container_acceuille .Texte_acceuille h1 {
     color: white;
@@ -104,11 +104,6 @@
 @media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
   .Container_acceuille .Texte_acceuille h1 {
     font-size: 4em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Container_acceuille .Texte_acceuille h1 {
-    font-size: 5em;
   }
 }
 main .Ligne {
@@ -132,18 +127,6 @@ main .Ligne {
     font-family: "Lobster", Arial, Helvetica, sans-serif;
     font-size: 2em;
   }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
-  .Box_prix_titre strong {
-    font-size: 3em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Box_prix_titre strong {
-    font-size: 4em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_prix_titre .Border_prix {
     display: flex;
     justify-content: center;
@@ -154,86 +137,41 @@ main .Ligne {
     background-color: #044488;
     border-radius: 15px;
   }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
-  .Box_prix_titre .Border_prix {
-    height: 100px;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Box_prix_titre .Border_prix {
-    height: 140px;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
     color: #A54657;
     margin-left: 2%;
     font-size: 2em;
   }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
-  .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
-    font-size: 3em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Box_prix_titre .Border_prix .fa-solid.fa-euro-sign {
-    font-size: 4em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_prix_titre .Border_titre {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60%;
     height: 50px;
-    border: 2px #044488 solid;
+    border: 4px #044488 solid;
     border-radius: 15px;
   }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
-  .Box_prix_titre .Border_titre {
-    height: 90px;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Box_prix_titre .Border_titre {
-    height: 130px;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_prix_titre .Border_titre h3 {
     color: #A54657;
     font-family: "Lobster", Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
   .Box_prix_titre .Border_titre h3 {
     font-size: 2em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Box_prix_titre .Border_titre h3 {
-    font-size: 3em;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
     margin-left: 2%;
     color: #044488;
+    font-size: 1.2em;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
   .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
     font-size: 2em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Box_prix_titre .Border_titre .fa-solid.fa-house-chimney {
-    font-size: 3em;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1000px) {
@@ -244,7 +182,7 @@ main .Ligne {
     align-items: center;
   }
   .Box_images_annonces .Img_principale {
-    width: 80%;
+    width: 100%;
     height: 400px;
     background-image: url(Images/Image_Villa.jpg);
     background-repeat: no-repeat;
@@ -255,24 +193,46 @@ main .Ligne {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    width: 75%;
+    width: 100%;
     height: 150px;
   }
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
+  .Box_images_annonces .Nav_pieces {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_images_annonces .Nav_pieces .Img_villa1 {
     background-image: url(Images/Pieces_Villa1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 18px;
     height: 100%;
     width: 40%;
   }
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_images_annonces .Nav_pieces .Img_villa2 {
-    background-image: url(Images/Pieces_Villa1.jpg);
+    background-image: url(Images/Pieces_Villa3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 60%;
+    background-position: center;
     border-radius: 18px;
     height: 100%;
     width: 40%;
   }
+}
+.Box_resumer_annonce {
+  margin-top: 20px;
+}
+.Box_resumer_annonce .Border_resumer {
+  padding: 2%;
+  border: 4px #A54657 solid;
+  border-radius: 15px;
+}
+.Box_resumer_annonce .Border_resumer p {
+  font-family: "lobster", Arial, Helvetica, sans-serif;
+  color: #044488;
 }/*# sourceMappingURL=Imobillier.css.map */

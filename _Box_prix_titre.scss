@@ -13,13 +13,6 @@
             font-family: "Lobster", Arial, Helvetica, sans-serif;
             font-size: 2em;
 
-            @media screen and (min-width: 576px) {
-                font-size: 3em;
-            }
-
-            @media screen and (min-width: 768px) {
-                font-size: 4em;
-            }
         }
 
         .Border_prix {
@@ -32,26 +25,10 @@
             background-color: #044488;
             border-radius: 15px;
 
-            @media screen and (min-width: 576px) {
-                height: 100px;
-            }
-
-            @media screen and (min-width: 768px) {
-                height: 140px;
-            }
-
             .fa-solid.fa-euro-sign {
                 color: #A54657;
                 margin-left: 2%;
                 font-size: 2em;
-
-                @media screen and (min-width: 576px) {
-                    font-size: 3em;
-                }
-
-                @media screen and (min-width: 768px) {
-                    font-size: 4em;
-                }
             }
         }
 
@@ -61,41 +38,26 @@
             align-items: center;
             width: 60%;
             height: 50px;
-            border: 2px #044488 solid;
+            border: 4px #044488 solid;
             border-radius: 15px;
-
-            @media screen and (min-width: 576px) {
-                height: 90px;
-            }
-
-            @media screen and (min-width: 768px) {
-                height: 130px;
-            }
-
             h3 {
                 color: #A54657;
                 font-family: "Lobster", Arial, Helvetica, sans-serif;
-                font-size: 1em;
+                font-size: 1.2em;
 
                 @media screen and (min-width: 576px) {
                     font-size: 2em;
                 }
 
-                @media screen and (min-width: 768px) {
-                    font-size: 3em;
-                }
             }
 
             .fa-solid.fa-house-chimney {
                 margin-left: 2%;
                 color: #044488;
+                font-size: 1.2em;
 
                 @media screen and (min-width: 576px) {
                     font-size: 2em;
-                }
-
-                @media screen and (min-width: 768px) {
-                    font-size: 3em;
                 }
             }
         }

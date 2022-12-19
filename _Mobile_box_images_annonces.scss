@@ -8,7 +8,7 @@
         align-items: center;
         .Img_principale
         {
-            width: 80%;
+            width: 100%;
             height: 400px;
             background-image: url(Images/Image_Villa.jpg);
             background-repeat: no-repeat;
@@ -21,23 +21,27 @@
             display: flex;
             flex-flow: row;
             justify-content: space-around;
-            width: 75%;
+            width: 100%;
             height: 150px;
+            @media screen and (min-width: 576px) {
+                height: 200px;
+            }
             .Img_villa1
             {
                 background-image: url(Images/Pieces_Villa1.jpg) ;
                 background-repeat: no-repeat;
                 background-size: cover;
+                background-position: center;
                 border-radius: 18px;
                 height: 100%;
                 width: 40%;
             }
             .Img_villa2
             {
-                background-image: url(Images/Pieces_Villa1.jpg) ;
+                background-image: url(Images/Pieces_Villa3.jpg) ;
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position-x: 60%;
+                background-position: center;
                 border-radius: 18px;
                 height: 100%;
                 width: 40%;
