@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9a698fdf91.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Imobillier.css"/>
     <title>Gabriel Immobilier</title>
 </head>
 <body>
     <div class="Container_all">
         <header class="Container_header"> <!--prends en compte toute la partie avant l'annonce-->
+            <div class="Header_titre">
                 <h1>Gabriel Immobilier</h1>
-                <!--partie celon le responsives-->
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!--partie celon le responsives-->
+            <div class="Responsive_header">
                 <nav class="Navbar_header">
                     <div>Annonce</div>
-                    <div>Contact</div>
+                   <div>Contact</div>
                 </nav>
                 <div>
-                    <div>Facebook</div>
+                       <div>Facebook</div>
                     <div>Instagram</div>
                 </div>
+            </div>
                 <!--FIN de partie celon le responsives-->
                 <div class="Container_acceuille"> <!--prends en compte toute la partie de l'acceuille-->
                     <div class="Box_img_acceuille">
-                        <img src="Images/Image_Principale.jpg" alt="Images_acceuilles" height="100" width="100">
                         <div class="Texte_acceuille">
-                            <h2>Un nouveaux chez vous</h2>
+                            <h2>Un nouveau chez vous</h2>
                             <div>
                                 <h1>Gabriel Immobilier</h1>
                             </div>
+                            <i class="fa-sharp fa-solid fa-house-building"></i>
                         </div>
                     </div>
                 </div>
         </header> <!--Fin header-->
         <main class="Container_annonce"> <!--prends en compte toute la partie de Annonce jusqu'au footer-->
-            <hr/>
+            <div class="Ligne"></div>
             <section> <!--Section annonce 1-->
-                <div>prix: 300 000</div>
-                <h3>Villa/Ales/140m²</h3>
+                <div class="Box_prix_titre">
+                    <div class="Border_prix"><strong>prix: 300 000</strong><i class="fa-solid fa-euro-sign"></i></div>
+                    <div class="Border_titre"><h3>Villa / Ales / 140m²</h3><i class="fa-solid fa-house-chimney"></i></div>
+                </div>
                 <div class="Box_images_annonces"><!-- divers images de l'annonces-->
                     <div><img src="Images/Image_Villa.jpg" alt="Villa" height="100" width="100"></div>
                     <aside class="Nav_pieces">
@@ -58,7 +67,7 @@
                 <div class="Box_logo">
                 </div>
             </section>    
-            <hr/>
+            <div class="Ligne"></div>
         </main> <!--Fin du Main annonce-->
         <footer class="Container_footer"> <!--Début footer-->
             <div class="Box_contact"> <!--contact avec les logo-->
