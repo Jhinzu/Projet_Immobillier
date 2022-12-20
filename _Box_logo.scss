@@ -8,6 +8,9 @@
         justify-content: space-around;
         font-size: 3em;
         color: #9c2b40;
+        @media screen and (min-width: 1200px) {
+            font-size: 4em;
+        }
         .column_icon
         {
             display: flex;

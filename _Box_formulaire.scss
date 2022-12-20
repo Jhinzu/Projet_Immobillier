@@ -11,14 +11,15 @@
         display: flex;
         flex-flow: column;
         align-items: center;
-        gap: 5%;
+        gap: 10px;
         border: 4px #A54657 solid;
         border-radius: 15px;
         background-color: white;
+        height: 300px;
         input
         {
             border: 2px #A54657 solid;
-            border-radius: 15px;
+            border-radius: 10px;
             width: 100%;
             font-family: "style script",Arial, Helvetica, sans-serif;
             font-size: 1.5em;

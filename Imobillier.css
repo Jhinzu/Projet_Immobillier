@@ -249,9 +249,20 @@ main .Ligne {
     width: 80%;
   }
 }
+@media screen and (min-width: 1200px) {
+  .Box_resumer_annonce .Border_resumer {
+    width: 65%;
+  }
+}
 .Box_resumer_annonce .Border_resumer p {
   font-family: "lobster", Arial, Helvetica, sans-serif;
   color: #044488;
+  font-size: 1em;
+}
+@media screen and (min-width: 1200px) {
+  .Box_resumer_annonce .Border_resumer p {
+    font-size: 1.5em;
+  }
 }
 
 .Box_logo {
@@ -263,6 +274,11 @@ main .Ligne {
   justify-content: space-around;
   font-size: 3em;
   color: #9c2b40;
+}
+@media screen and (min-width: 1200px) {
+  .Box_logo .lot_3_icon {
+    font-size: 4em;
+  }
 }
 .Box_logo .lot_3_icon .column_icon {
   display: flex;
@@ -283,7 +299,6 @@ footer {
   display: flex;
   flex-flow: column;
   gap: 20px;
-  padding: 5%;
 }
 
 .Box_contact {
@@ -292,7 +307,7 @@ footer {
   padding-top: 5%;
 }
 .Box_contact .Border_contact {
-  height: 50%;
+  height: 50px;
   width: 80%;
   padding: 2%;
   border: 4px #A54657 solid;
@@ -310,7 +325,7 @@ footer {
 }
 .Box_contact .Border_contact .Lot_3_icon_contact .Trait_verticale {
   border-left: 2px #044488 solid;
-  height: 30px;
+  height: 40px;
 }
 
 .Box_formulaire {
@@ -325,14 +340,15 @@ footer {
   display: flex;
   flex-flow: column;
   align-items: center;
-  gap: 5%;
+  gap: 10px;
   border: 4px #A54657 solid;
   border-radius: 15px;
   background-color: white;
+  height: 300px;
 }
 .Box_formulaire .Border_formulaire input {
   border: 2px #A54657 solid;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 100%;
   font-family: "style script", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
