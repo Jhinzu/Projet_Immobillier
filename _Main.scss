@@ -1,10 +1,14 @@
 main
 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     .Ligne
     {
         margin-top: 20px;
         margin-bottom: 20px;
-        border: 1px #A54657 solid;
+        border: 2px #A54657 solid;
         background-color: #A54657;
+        width: 80%;
     }
 }

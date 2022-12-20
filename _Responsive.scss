@@ -1,0 +1,107 @@
+@media screen and (min-width:360px) and (max-width:1000px)
+{
+    .Responsive_header
+    {
+        display: none;
+    }
+}
+@media screen and (min-width:1000px)
+{
+    .fa-solid.fa-bars
+    {
+        display: none;
+    }
+    .Header_titre
+    {
+        display: flex;
+        h1
+        {
+            width: 40%;
+            @media screen and (min-width:1200px)
+            {
+                font-size: 4em;
+            }
+        }
+        .Responsive_header
+        {
+            height: 73px;
+            display: flex;
+            flex-flow: row;
+            width: 60%;
+            justify-content: space-between;
+            align-items: center;
+            .Navbar_responsive_1
+            {
+                display: flex;
+                flex-flow: row;
+                color: #044488;
+                font-family: "lobster", Arial, Helvetica, sans-serif;
+                font-size: 2em;
+                gap: 30%;
+                @media screen and (min-width:1200px)
+                {
+                    font-size: 3em;
+                }
+            }
+            .Navbar_responsive_2
+            {
+                display: flex;
+                flex-flow: row;
+                color: #044488;
+                font-size: 2em;
+                gap: 20px;
+                @media screen and (min-width:1200px)
+                {
+                    font-size: 3em;
+                }
+
+            }
+        }
+    }
+}
+@media screen and (min-width:1200px)
+{
+
+    .Container_acceuille
+    {
+        height: 700px;
+        .Box_img_acceuille
+        {
+            height: 100%;
+        }
+    }
+    .Container_images_annonces
+    {
+        display: flex;
+        justify-content: center;
+        .Box_images_annonces
+        {
+            display: flex;
+            flex-flow: row;
+            height: 500px;
+            width: 70%;
+            .Img_principale
+            {
+                display: flex;
+                width: 80%;
+                height: 100%;
+                border-radius: 0px;
+            }
+            .Nav_pieces
+            {
+                gap: 10px;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                width: 20% ;
+                height: 100% ;
+                .Img_villa1,.Img_villa2,.Img_villa3
+                {
+                    width: 100%;
+                    border-radius: 0px;
+                }
+            }
+        }
+    }
+
+}

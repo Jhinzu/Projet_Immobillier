@@ -1,5 +1,4 @@
-@media screen and (min-width:360px) and (max-width:1000px)
-{
+
     .Container_acceuille
     {
         display: flex;
@@ -44,6 +43,14 @@
             {
                font-size: 3em;
             }
+            @media screen and (min-width: 1200px)
+            {
+               font-size: 5em;
+            }
+            @media screen and (min-width: 1400px)
+            {
+               font-size: 6em;
+            }
             }
             h1
             {
@@ -55,7 +62,14 @@
                 {
                     font-size: 4em;
                 }
+                @media screen and (min-width: 1200px)
+                {
+                    font-size: 6em;
+                }
+                @media screen and (min-width: 1400px)
+                {
+                    font-size: 7em;
+                }
             }
         }
     }
-}

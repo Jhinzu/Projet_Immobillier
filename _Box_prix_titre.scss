@@ -1,5 +1,4 @@
-@media screen and (min-width:360px) and (max-width:1000px)
-{
+
     .Box_prix_titre {
         margin-bottom: 10px;
         display: flex;
@@ -19,7 +18,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 80%;
+            width: 70%;
             height: 60px;
             border: 2px #044488 solid;
             background-color: #044488;
@@ -62,4 +61,3 @@
             }
         }
     }
-}
