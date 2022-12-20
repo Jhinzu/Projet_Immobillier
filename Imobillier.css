@@ -26,11 +26,6 @@
     font-size: 4em;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Header_titre .fa-solid.fa-bars {
-    font-size: 5em;
-  }
-}
 @media screen and (min-width: 360px) and (max-width: 1000px) {
   .Header_titre h1 {
     color: #A54657;
@@ -43,11 +38,6 @@
 @media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
   .Header_titre h1 {
     font-size: 3em;
-  }
-}
-@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
-  .Header_titre h1 {
-    font-size: 4em;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1000px) {
@@ -189,6 +179,13 @@ main .Ligne {
     background-size: 100% 100%;
     border-radius: 18px;
   }
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_images_annonces .Img_principale {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) {
   .Box_images_annonces .Nav_pieces {
     display: flex;
     flex-flow: row;
@@ -200,6 +197,11 @@ main .Ligne {
 @media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 576px) {
   .Box_images_annonces .Nav_pieces {
     height: 200px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) and (min-width: 768px) {
+  .Box_images_annonces .Nav_pieces {
+    width: 80%;
   }
 }
 @media screen and (min-width: 360px) and (max-width: 1000px) {
@@ -225,14 +227,100 @@ main .Ligne {
   }
 }
 .Box_resumer_annonce {
+  width: 100%;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 .Box_resumer_annonce .Border_resumer {
   padding: 2%;
   border: 4px #A54657 solid;
   border-radius: 15px;
 }
+@media screen and (min-width: 768px) {
+  .Box_resumer_annonce .Border_resumer {
+    width: 80%;
+  }
+}
 .Box_resumer_annonce .Border_resumer p {
   font-family: "lobster", Arial, Helvetica, sans-serif;
   color: #044488;
+}
+
+.Box_logo {
+  margin-top: 5%;
+}
+.Box_logo .lot_3_icon {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  font-size: 3em;
+  color: #9c2b40;
+}
+.Box_logo .lot_3_icon .column_icon {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Box_logo .lot_3_icon p {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 0.5em;
+  font-family: "Lobster", Arial, Helvetica, sans-serif;
+  color: #044488;
+}
+
+footer {
+  background-color: #044488;
+}
+
+.Box_contact {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  padding-top: 5%;
+}
+.Box_contact .Border_contact {
+  height: 50%;
+  width: 80%;
+  padding: 2%;
+  border: 4px #A54657 solid;
+  border-radius: 15px;
+  background-color: white;
+}
+.Box_contact .Border_contact .Lot_3_icon_contact {
+  font-size: 2em;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #A54657;
+}
+.Box_contact .Border_contact .Lot_3_icon_contact .Trait_verticale {
+  border-left: 2px #044488 solid;
+  height: 30%;
+}
+
+.Box_formulaire {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.Box_formulaire .Border_formulaire {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 4px #A54657 solid;
+  border-radius: 15px;
+  background-color: white;
+}
+.Box_formulaire .Border_formulaire input {
+  border: 2px #A54657 solid;
+  border-radius: 15px;
+}
+.Box_formulaire .Border_formulaire textarea {
+  border: 2px #A54657 solid;
 }/*# sourceMappingURL=Imobillier.css.map */

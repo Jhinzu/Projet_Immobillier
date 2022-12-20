@@ -1,11 +1,17 @@
 .Box_resumer_annonce
 {
+    width: 100%;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
     .Border_resumer 
     {
         padding: 2%;
         border: 4px #A54657 solid;
         border-radius: 15px;
+        @media screen and (min-width: 768px) {
+            width: 80%;
+        }
         p
         {
             font-family: "lobster",Arial, Helvetica, sans-serif ;

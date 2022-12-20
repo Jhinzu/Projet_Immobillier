@@ -1,0 +1,31 @@
+.Box_contact
+{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-top: 5%;
+    .Border_contact
+    {
+        height: 50%;
+        width: 80%;
+        padding: 2%;
+        border: 4px #A54657 solid;
+        border-radius: 15px;
+        background-color: white;
+        .Lot_3_icon_contact
+        {
+            font-size: 2em;
+            height: 100%;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-around;
+            align-items: center;
+            color: #A54657;
+            .Trait_verticale
+            {
+                border-left: 2px #044488 solid;
+                height: 30%;
+            }
+        }
+    }
+}

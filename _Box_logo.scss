@@ -1,0 +1,27 @@
+.Box_logo
+{
+    margin-top: 5%;
+    .lot_3_icon
+    {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        font-size: 3em;
+        color: #9c2b40;
+        .column_icon
+        {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p
+        {
+            margin-top: 2px;
+            text-align: center;
+            font-size: 0.5em;
+            font-family: "Lobster", Arial, Helvetica, sans-serif;
+            color: #044488;
+        }
+    }
+}
