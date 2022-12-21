@@ -399,6 +399,9 @@ footer {
     font-size: 2em;
     gap: 30%;
   }
+  .Header_titre .Responsive_header .Navbar_responsive_1 div:hover {
+    color: #2c8ff9;
+  }
 }
 @media screen and (min-width: 1000px) and (min-width: 1200px) {
   .Header_titre .Responsive_header .Navbar_responsive_1 {
@@ -412,6 +415,9 @@ footer {
     color: #044488;
     font-size: 2em;
     gap: 20px;
+  }
+  .Header_titre .Responsive_header .Navbar_responsive_2 i:hover {
+    color: #2c8ff9;
   }
 }
 @media screen and (min-width: 1000px) and (min-width: 1200px) {
