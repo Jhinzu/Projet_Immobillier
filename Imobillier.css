@@ -16,6 +16,9 @@
   font-size: 3em;
   color: #044488;
 }
+.Header_titre .fa-solid.fa-bars:hover {
+  color: #2c8ff9;
+}
 @media screen and (min-width: 576px) {
   .Header_titre .fa-solid.fa-bars {
     font-size: 4em;

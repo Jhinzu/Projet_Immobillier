@@ -1,4 +1,4 @@
-
+@use "Variable_couleurs" as * ;
     .Header_titre
     {
         display: flex;
@@ -10,6 +10,10 @@
         {
             font-size: 3em;
             color: #044488;
+            &:hover
+                {
+                    color: lighten($blueprimaire,30);
+                }
             @media screen and (min-width: 576px)
             {
                font-size: 4em;
